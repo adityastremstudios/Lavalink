@@ -1,0 +1,17 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+
+lavalink:
+  server:
+    password: youshallnotpass
+    sources:
+      youtube: true
+      soundcloud: true
+      http: true
+      twitch: true
+    playerUpdateInterval: 1
+
+logging:
+  level:
+    root: INFO
